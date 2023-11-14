@@ -2,7 +2,7 @@
       // Function to update the current day in the header
       function updateCurrentDay() {
         var currentDayElement = document.getElementById('currentDay');
-        var currentDay = dayjs().format('dddd, MMMM D, YYYY');
+        var currentDay = dayjs().format('dddd, MMMM, D');
         currentDayElement.textContent = currentDay;
       }
 
